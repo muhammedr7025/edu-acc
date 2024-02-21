@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .Container { 
+        @apply bg-slate-800 border border-slate-400 rounded-[50px] p-8 shadow-lg backdrop-filter backdrop-blur-sm bg-opacity-30 
+    }
+    .TextField { 
+        @apply block w-72 py-2 px-0 text-white bg-transparent border-0 border-b-2 border-gray-50 appearance-none dark:border-blue-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-500 
+    }
+
+    
+    
+}
